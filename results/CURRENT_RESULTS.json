@@ -1,0 +1,23 @@
+{
+  "study": "Mondrian rectified conformal prediction for conditional reliability in soil spectroscopic regression",
+  "code_version": "0.2.1",
+  "sources": {
+    "2015_SOC": "results/lucas2015_full_cohort/SOC_pooled_summary.csv",
+    "2015_TN": "results/lucas2015_full_cohort/TN_pooled_summary.csv",
+    "2009_Austria_SOC": "results/headline_results.csv",
+    "Clay": "results/property_extension/headline.csv",
+    "2015_public_medians": "results/lucas2015_full_cohort/SOC_median_summary.csv",
+    "2009_Austria_public_medians": "results/unified_public_baselines/median_summary.csv"
+  },
+  "derived_views": [
+    "results/current/pooled_summary.csv",
+    "results/current/public_median_summary.csv"
+  ],
+  "diagnostic_summaries": {
+    "residuals": "results/diagnostics/residual_diagnostics_median_iqr.csv",
+    "score_tail_gaps": "results/diagnostics/tail_gaps_median_iqr.csv",
+    "group_widths": "results/diagnostics/group_widths_pooled.csv",
+    "threshold_scan": "results/diagnostics/thresholds_pooled.csv"
+  },
+  "note": "Views preserve source precision; overall widths are not high-group widths."
+}

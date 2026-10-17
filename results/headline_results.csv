@@ -1,0 +1,9 @@
+dataset,method,nominal_coverage,overall_coverage,high_coverage,rest_coverage,mean_width,interval_score,aggregation
+lucas2009,Split CP,0.90,0.8989,0.5663,0.9827,64.7849,138.5716,pooled row-level
+lucas2009,RCP-AbsRes,0.90,0.8992,0.8382,0.9146,49.9794,78.6274,pooled row-level
+lucas2009,Mondrian Split CP,0.90,0.8995,0.9004,0.8993,62.5618,94.6277,pooled row-level
+lucas2009,Mondrian RCP-AbsRes,0.90,0.9000,0.9010,0.8998,53.7449,77.2384,pooled row-level
+austrian,Split CP,0.90,0.8993,0.5825,0.9785,26.3326,62.2631,pooled row-level
+austrian,RCP-AbsRes,0.90,0.8918,0.8194,0.9098,23.3593,45.6261,pooled row-level
+austrian,Mondrian Split CP,0.90,0.8905,0.8900,0.8907,27.4457,48.6488,pooled row-level
+austrian,Mondrian RCP-AbsRes,0.90,0.8866,0.8858,0.8867,26.4462,45.1461,pooled row-level
