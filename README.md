@@ -1,7 +1,5 @@
 # Mondrian RCP-AbsRes for soil spectroscopy
 
-Code release 0.2.1 accompanies "Mondrian rectified conformal prediction for
-conditional reliability in soil spectroscopic regression".
 
 ## Current experiments
 
@@ -81,9 +79,13 @@ scope.
 - Mondrian regression: https://proceedings.mlr.press/v128/bostrom20a.html
 - Split conformal regression: https://doi.org/10.1080/01621459.2017.1307116
 
-## License and publication status
+## License and repository
 
-Code is under MIT; third-party data retain their providers' terms. Prepared data
-and prediction archives are not redistributed by this repository.
-No public repository address or DOI has been assigned. Add confirmed author and
-repository metadata before publishing a citable release; see `CITATION.cff`.
+The code is licensed under the MIT License; see LICENSE.
+Third-party data remain subject to their providers' terms.
+Raw data, prepared training data and sample-level prediction archives
+are not redistributed in this repository.
+
+Repository: https://github.com/LovSherry/Mondrian-RCP-AbsRes
+
+For software citation metadata, see CITATION.cff.
